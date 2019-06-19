@@ -1,0 +1,109 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.headerleft{
+    height:100%;
+    width: 30%;
+}
+.headerright{
+    height:100%;
+    width: 50%;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+li{
+    float: left;
+    display: block;
+    text-align: center;
+    width: 10%;
+    padding: 12px;
+    text-decoration: none;
+}
+.menuitem:hover{
+    background-color: #666666;
+    border-radius: 20px;
+}
+.darkbutton{
+    background-color: #333333;
+    color: white;
+    border-radius: 20px;
+}
+.darkbutton:hover{
+    background-color: #252525;
+    border-radius: 20px;
+}
+.footbutton{
+    display:block;
+    padding: 12px;
+}
+
+p{
+    border-left: 3px solid darkgray;
+    padding-left: 12px;
+}
+.description{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.descriptionleft{
+    height: 100%;
+    width: 40%;
+}
+.graphic{
+    position: relative;
+    height: 100%;
+    width: 40%;
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.pink{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    height: 300px;
+    width: 300px;
+    background-color: rgba(226, 52, 174, 0.5)
+    
+}
+.purple{
+    position: absolute;
+    top: 75px;
+    left: 270px;
+    height: 150px;
+    width: 150px;
+    background-color: rgba(183, 0, 255, 0.5)
+
+}
+.yellow{
+    position: absolute;
+    top: 185px;
+    left: 230px;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(208, 255, 0, 0.5)
+
+}
+
